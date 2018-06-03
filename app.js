@@ -3,7 +3,6 @@ const path = require('path');
 const fetch = require('node-fetch');
 const RX = require('rxjs/Rx');
 const {from,Observable} = RX;
-
 const app = express();
 
 app.set('views',path.join(__dirname,'views'));
